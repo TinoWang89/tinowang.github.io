@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>我的个人网站</title>
+    <meta
+      name="description"
+      content="一个突出音乐、电影、个人经历与生活爱好的个人网站。"
+    >
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header" aria-label="主导航">
+        <a class="brand" href="#top" aria-label="回到顶部">
+          <span class="brand-mark">TW</span>
+          <span>个人档案</span>
+        </a>
+        <nav class="nav-links">
+          <a href="#about">自我介绍</a>
+          <a href="#music">音乐</a>
+          <a href="#film">电影</a>
+          <a href="#work">工作经历</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero" aria-labelledby="hero-title">
+          <canvas id="cultureCanvas" class="culture-canvas" aria-hidden="true"></canvas>
+          <div class="hero-copy">
+            <p class="eyebrow">Personal Website</p>
+            <h1 id="hero-title">你好，我是 Tino Wang。</h1>
+            <p class="hero-text">
+              我喜欢把生活过得有声有画：音乐让我保持敏感，电影让我练习观察，
+              工作则让我把灵感变成可靠的成果。
+            </p>
+            <div class="hero-actions" aria-label="页面快捷入口">
+              <a class="primary-action" href="#music">听我的音乐偏好</a>
+              <a class="secondary-action" href="#film">看我的电影片单</a>
+            </div>
+          </div>
+          <aside class="hero-panel" aria-label="个人摘要">
+            <div>
+              <span class="panel-label">现在的我</span>
+              <strong>创作、学习、探索新鲜事物</strong>
+            </div>
+            <div>
+              <span class="panel-label">音乐关键词</span>
+              <strong>旋律、现场感、深夜播放</strong>
+            </div>
+            <div>
+              <span class="panel-label">电影关键词</span>
+              <strong>叙事、光影、人物命运</strong>
+            </div>
+          </aside>
+        </section>
+
+        <section id="about" class="section about-section" aria-labelledby="about-title">
+          <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2 id="about-title">自我介绍</h2>
+          </div>
+          <div class="about-grid">
+            <p class="lead">
+              我是一个对技术、表达和文化内容都很有兴趣的人。白天，我关注如何把复杂问题拆解清楚；
+              休息时，我常常在音乐、电影和城市漫步里寻找新的灵感。
+            </p>
+            <div class="fact-list" aria-label="个人信息">
+              <span>所在地：中国</span>
+              <span>状态：持续成长中</span>
+              <span>风格：理性、好奇、重视体验</span>
+              <span>期待：做有审美也有价值的事</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="section hobbies-section" aria-labelledby="hobbies-title">
+          <div class="section-heading">
+            <p class="eyebrow">Interests</p>
+            <h2 id="hobbies-title">个人爱好</h2>
+          </div>
+          <div class="hobby-grid">
+            <article class="hobby-card">
+              <span class="hobby-icon">♪</span>
+              <h3>听音乐</h3>
+              <p>从流行、独立到电影配乐，我喜欢反复听一首歌里微小的情绪变化。</p>
+            </article>
+            <article class="hobby-card">
+              <span class="hobby-icon">◐</span>
+              <h3>看电影</h3>
+              <p>偏爱有余味的故事，也喜欢研究镜头、剪辑和配乐如何共同制造记忆点。</p>
+            </article>
+            <article class="hobby-card">
+              <span class="hobby-icon">✦</span>
+              <h3>记录灵感</h3>
+              <p>把读到、听到、看到的东西整理成笔记，慢慢形成自己的审美地图。</p>
+            </article>
+            <article class="hobby-card">
+              <span class="hobby-icon">⌁</span>
+              <h3>探索城市</h3>
+              <p>喜欢寻找安静的咖啡馆、独立书店和适合戴耳机散步的路线。</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="music" class="section feature-section music-section" aria-labelledby="music-title">
+          <div class="section-heading wide">
+            <p class="eyebrow">Music</p>
+            <h2 id="music-title">我喜欢的音乐</h2>
+            <p>
+              音乐是我最稳定的情绪入口。不同阶段喜欢的歌会变，但我一直偏爱旋律清楚、
+              氛围真诚、能在某个瞬间把人拉回记忆里的作品。
+            </p>
+          </div>
+          <div class="music-layout">
+            <div class="record-player" aria-hidden="true">
+              <div class="record">
+                <div class="record-label"></div>
+              </div>
+              <div class="tonearm"></div>
+            </div>
+            <div class="playlist">
+              <article>
+                <span>01</span>
+                <div>
+                  <h3>深夜循环</h3>
+                  <p>适合一个人整理思绪的歌曲，重点是声音的质感和情绪的回落。</p>
+                </div>
+              </article>
+              <article>
+                <span>02</span>
+                <div>
+                  <h3>通勤节奏</h3>
+                  <p>鼓点清晰、速度刚好，能把普通的一天推向更有能量的方向。</p>
+                </div>
+              </article>
+              <article>
+                <span>03</span>
+                <div>
+                  <h3>电影配乐</h3>
+                  <p>喜欢那些不抢戏却能改变整部电影气味的旋律。</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="film" class="section feature-section film-section" aria-labelledby="film-title">
+          <div class="section-heading wide">
+            <p class="eyebrow">Film</p>
+            <h2 id="film-title">我喜欢的电影</h2>
+            <p>
+              我喜欢电影里那些安静但准确的时刻：一句台词、一个回头、一次突然沉默。
+              好电影会让人离开屏幕后，还继续在脑子里重放。
+            </p>
+          </div>
+          <div class="film-strip" aria-label="电影偏好">
+            <article class="film-frame">
+              <span>Scene 01</span>
+              <h3>人物命运</h3>
+              <p>关注角色如何被选择、时代和情感慢慢推向某个结局。</p>
+            </article>
+            <article class="film-frame">
+              <span>Scene 02</span>
+              <h3>光影氛围</h3>
+              <p>喜欢摄影有辨识度的作品，画面本身就能传达情绪。</p>
+            </article>
+            <article class="film-frame">
+              <span>Scene 03</span>
+              <h3>配乐记忆</h3>
+              <p>当音乐和画面真正贴合时，电影会多一层难以替代的生命力。</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="work" class="section work-section" aria-labelledby="work-title">
+          <div class="section-heading">
+            <p class="eyebrow">Experience</p>
+            <h2 id="work-title">工作经历</h2>
+          </div>
+          <div class="timeline">
+            <article>
+              <time>2024 - 至今</time>
+              <h3>当前职位 / 项目方向</h3>
+              <p>负责需求拆解、方案设计与执行落地，注重沟通效率和最终体验。</p>
+            </article>
+            <article>
+              <time>2022 - 2024</time>
+              <h3>上一段工作经历</h3>
+              <p>参与跨团队项目推进，在快速变化的环境中积累了问题分析和协作经验。</p>
+            </article>
+            <article>
+              <time>更早之前</time>
+              <h3>学习与探索阶段</h3>
+              <p>持续学习新工具、新方法，也逐渐明确自己对内容、设计和技术的兴趣。</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section closing-section" aria-labelledby="closing-title">
+          <p class="eyebrow">Contact</p>
+          <h2 id="closing-title">欢迎认识我</h2>
+          <p>
+            如果你也喜欢聊音乐、电影、创作或有趣的工作方式，可以从这里开始一段对话。
+          </p>
+          <a class="primary-action" href="mailto:your.email@example.com">your.email@example.com</a>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
